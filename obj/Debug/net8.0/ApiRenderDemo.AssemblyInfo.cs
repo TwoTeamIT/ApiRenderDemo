@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiRenderDemo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ab92d4ffdde959138e64e35dddb4588de4e6543")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0074ac39eec2fd9d5cbf0220a8f0a652c5764b5a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiRenderDemo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiRenderDemo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
