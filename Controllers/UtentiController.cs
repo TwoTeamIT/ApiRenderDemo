@@ -21,6 +21,21 @@ namespace ApiRenderDemo.Controllers
                     => GetAll()
             ).WithName("GetAllUsers");
 
+            groupUsers.MapGet("/byflag", ([FromQuery] bool enabled = false)
+                    =>
+            {
+                return enabled ? GetAbilitati() : GetAll();
+            }
+            ).WithName("GetByFlag");
+
+            groupUsers.MapGet("/active",()
+                    => GetAbilitati()
+            ).WithName("GetAbilitati");
+
+            groupUsers.MapGet("/{id}", ([FromRoute] int id)
+                    => GetById(id)
+            ).WithName("GetById");
+
             groupUsers.MapPost("/",
                 ([FromBody][Required] UserModel uModel)
                     => SaveOrUpdateUser(uModel)
