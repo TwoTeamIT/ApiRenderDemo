@@ -1,0 +1,6 @@
+@ApiRenderDemo_HostAddress = http://localhost:5283
+
+GET {{ApiRenderDemo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
